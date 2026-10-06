@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diamantes FF | Centro de Giros Diarios</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <div class="logo-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#ff3b3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0011 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 11-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 002.5 2.5z"></path></svg>
+          </div>
+          <div class="logo-text">
+            <strong>DIAMANTES FF</strong>
+            <span>CENTRO DE GIROS DIARIOS</span>
+          </div>
+        </div>
+        
+        <ul class="nav-links">
+          <li><a href="#ruleta" class="active">Ruleta</a></li>
+          <li><a href="#">Más giros</a></li>
+          <li><a href="#">Entrega</a></li>
+        </ul>
+
+        <button class="nav-btn">GIRAR GRATIS</button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-background"></div>
+      <div class="hero-overlay"></div>
+      
+      <div class="hero-content">
+        <div class="badge">
+          <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          SOLO TODOS LOS DÍAS
+        </div>
+        
+        <h1 class="hero-title">
+          GANA <span class="highlight-yellow">DIAMANTES</span><br>
+          GRATIS PARA FREE<br>
+          FIRE
+        </h1>
+        
+        <p class="hero-desc">
+          Entra cada día, gira la ruleta y registra tu ID de jugador<br>
+          para reclamar tu premio. Sin costo y con entrega verificada<br>
+          por nuestro equipo.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#ruleta" class="btn-primary">GIRAR LA RULETA<br>AHORA</a>
+          <button id="moreSpinsBtn" class="btn-secondary">CÓMO CONSEGUIR MÁS<br>GIROS</button>
+        </div>
+
+        <div class="hero-features">
+          <div class="feature">
+            <span class="feature-icon">📅</span>
+            Un giro gratis cada día
+          </div>
+          <div class="feature">
+            <span class="feature-icon">🛡️</span>
+            Entrega con tu ID de jugador
+          </div>
+          <div class="feature">
+            <span class="feature-icon">🏆</span>
+            Premios de hasta 2.000 diamantes
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roulette Section -->
+    <section id="ruleta" class="roulette-section">
+      <div class="roulette-wrapper">
+        <h2 class="section-heading">TU GIRO DIARIO</h2>
+        <div class="roulette-container">
+          <div class="pointer"></div>
+          <div class="roulette-wheel" id="wheel">
+            <div class="slice slice-1">
+              <div class="text">
+                <span style="font-size: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">💎</span>
+                <span>100</span>
+              </div>
+            </div>
+            <div class="slice slice-2">
+              <div class="text">
+                <span style="font-size: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">🎫</span>
+                <span>Pase</span>
+              </div>
+            </div>
+            <div class="slice slice-3">
+              <div class="text">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Nequi_Logo.png" class="prize-img" alt="nequi">
+                <span>Nequi</span>
+              </div>
+            </div>
+            <div class="slice slice-4">
+              <div class="text">
+                <span style="font-size: 1.5rem">😢</span><br>
+                <span>Nada</span>
+              </div>
+            </div>
+            <div class="slice slice-5">
+              <div class="text">
+                <span style="font-size: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">💎</span>
+                <span>300</span>
+              </div>
+            </div>
+            <div class="slice slice-6">
+              <div class="text">
+                <span style="font-size: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">🧥</span>
+                <span>Skin</span>
+              </div>
+            </div>
+            <div class="slice slice-7">
+              <div class="text">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Nequi_Logo.png" class="prize-img" alt="nequi">
+                <span>Recarga</span>
+              </div>
+            </div>
+            <div class="slice slice-8">
+              <div class="text">
+                <span style="font-size: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">💎</span>
+                <span>2000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button id="spinBtn" class="spin-btn">GIRAR LA RULETA</button>
+      </div>
+    </section>
+
+    <!-- Modal de resultado -->
+    <div id="resultModal" class="modal hidden">
+      <div class="modal-content">
+        <h2>¡FELICIDADES!</h2>
+        <p id="resultText">Has ganado 100 Diamantes</p>
+        <div class="input-group">
+          <input type="text" placeholder="Ingresa tu ID de Jugador" id="playerId" />
+        </div>
+        <button id="closeModalBtn" class="close-btn">RECLAMAR PREMIO</button>
+      </div>
+    </div>
+
+    <!-- Modal de Más Giros -->
+    <div id="infoModal" class="modal hidden">
+      <div class="modal-content">
+        <h2>¡MÁS GIROS!</h2>
+        <p style="font-size: 1rem; color: #a0a5b5; margin-bottom: 2rem;">Los giros gratis se actualizan cada 24 horas.<br>¡Vuelve mañana para seguir ganando increíbles premios!</p>
+        <button id="closeInfoModalBtn" class="close-btn">ENTENDIDO</button>
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
